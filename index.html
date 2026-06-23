@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Heaven</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="cursor"></div>
+
+<header>
+<nav class="navbar">
+
+<div class="logo">
+🍕 PizzaHeaven
+</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<a href="#" class="order-btn">Order Now</a>
+
+<div class="menu-toggle">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</nav>
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>
+Taste The <span>Best</span><br>
+Pizza In Town
+</h1>
+
+<p>
+Fresh ingredients, handmade dough and mouth-watering flavors delivered right to your door.
+</p>
+
+<div class="hero-buttons">
+<a href="#menu" class="btn-primary">Explore Menu</a>
+<a href="#about" class="btn-secondary">Learn More</a>
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<div class="glow"></div>
+
+<img class="pizza"
+src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200"
+alt="Pizza">
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat-box">
+<h2>20K+</h2>
+<p>Happy Customers</p>
+</div>
+
+<div class="stat-box">
+<h2>100+</h2>
+<p>Pizza Recipes</p>
+</div>
+
+<div class="stat-box">
+<h2>24/7</h2>
+<p>Fast Delivery</p>
+</div>
+
+<div class="stat-box">
+<h2>4.9★</h2>
+<p>Ratings</p>
+</div>
+
+</section>
+
+<section class="menu-section" id="menu">
+
+<div class="section-title">
+<h2>Popular Pizzas</h2>
+<p>Our Most Loved Items</p>
+</div>
+
+<div class="menu-grid">
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800" alt="">
+<h3>Cheese Burst</h3>
+<p>Extra cheese loaded pizza.</p>
+<div class="price-row">
+<span>₹299</span>
+<button class="add-cart"
+        data-name="Cheese Burst"
+        data-price="299">
+    Add
+</button>
+</div>
+</div>
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=800" alt="">
+<h3>Pepperoni</h3>
+<p>Premium pepperoni toppings.</p>
+<div class="price-row">
+<span>₹399</span>
+<button class="add-cart"
+        data-name="Pepperoni"
+        data-price="399">
+    Add
+</button>
+</div>
+</div>
+
+<div class="card reveal">
+<img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+<h3>Veg Delight</h3>
+<p>Loaded with fresh vegetables.</p>
+<div class="price-row">
+<span>₹249</span>
+<button class="add-cart"
+        data-name="Veg Delight"
+        data-price="249">
+    Add
+</button>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<div class="about-image reveal">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1000" alt="">
+</div>
+
+<div class="about-content reveal">
+<h2>Why Choose Us?</h2>
+
+<p>
+We use premium ingredients and traditional recipes to create unforgettable pizza experiences.
+</p>
+
+<ul>
+<li>✔️ Fresh Ingredients</li>
+<li>✔️ Fast Delivery</li>
+<li>✔️ Affordable Prices</li>
+<li>✔️ Premium Taste</li>
+</ul>
+
+<a href="#" class="btn-primary">Read More</a>
+
+</div>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+<div class="section-title">
+<h2>Customer Reviews</h2>
+<p>What People Say</p>
+</div>
+
+<div class="review-container">
+
+<div class="review-card reveal">
+<h3>Piyush Raj</h3>
+<p>"Best pizza I've ever tasted."</p>
+<div class="stars">★★★★★</div>
+</div>
+
+<div class="review-card reveal">
+<h3>Bittu Baranwal</h3>
+<p>"Amazing quality and awesome service."</p>
+<div class="stars">★★★★★</div>
+</div>
+
+<div class="review-card reveal">
+<h3>Raj</h3>
+<p>"Highly recommended."</p>
+<div class="stars">★★★★★</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<div class="section-title">
+<h2>Contact Us</h2>
+<p>Get In Touch</p>
+</div>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<div class="order-popup" id="orderPopup">
+
+<div class="popup-content">
+
+<span class="close-btn">&times;</span>
+
+<h2>🍕 Place Your Order</h2>
+
+<input type="text" id="customerName" placeholder="Full Name">
+
+<input type="tel" id="mobile" placeholder="Mobile Number">
+
+<textarea id="address" placeholder="Delivery Address"></textarea>
+
+<select id="pizzaType">
+<option value="299">Cheese Burst - ₹299</option>
+<option value="399">Pepperoni - ₹399</option>
+<option value="249">Veg Delight - ₹249</option>
+</select>
+
+<input type="number" id="qty" value="1" min="1">
+
+<select id="payment">
+<option>Cash On Delivery</option>
+<option>UPI</option>
+<option>Debit/Credit Card</option>
+</select>
+
+<h3>Total: ₹<span id="total">299</span></h3>
+
+<button id="placeOrder">Place Order</button>
+
+</div>
+</div>
+
+<footer>
+<h2>PizzaHeaven</h2>
+<p>© 2026 All Rights Reserved</p>
+
+<div class="socials">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-x-twitter"></i></a>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
